@@ -28,3 +28,14 @@ def run_tests():
 
 def uniq_insert(nums, n):
 
+    if n in nums:
+        print(nums)
+
+    elif n != nums:
+        nums.append(n)
+        print(nums)
+        
+    else:
+        print(nums)
+        
+
